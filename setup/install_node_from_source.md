@@ -22,7 +22,7 @@ export PATH=$PATH:$HOME/.node/bin
 export NODE_PATH=$HOME/.node/lib/node_modules
 ```
 
-or for fish, add the following to config.fish (/home/userName/.config/fish/config.fish)
+or for fish, add the following to config.fish (~/.config/fish/config.fish)
 ```
 set -gx PATH $PATH $HOME/.node/bin
 set -gx NODE_PATH $HOME/.node/lib/node_modules
