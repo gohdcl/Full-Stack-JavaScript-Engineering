@@ -12,7 +12,7 @@ This is only if you need to, generally just on Linux systems.
 ```
 tar -xvf <the node tar.gz you downloaded>
 cd <node directory>
-./configure --prefix=/home/<user>/.node
+./configure --prefix=$HOME/.node
 make && make install
 ```
 
@@ -22,7 +22,7 @@ export PATH=$PATH:$HOME/.node/bin
 export NODE_PATH=$HOME/.node/lib/node_modules
 ```
 
-or for fish, add the following to config.fish (/home/<user>/.config/fish/config.fish)
+or for fish, add the following to config.fish (/home/userName/.config/fish/config.fish)
 ```
 set -gx PATH $PATH $HOME/.node/bin
 set -gx NODE_PATH $HOME/.node/lib/node_modules
